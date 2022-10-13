@@ -1,5 +1,5 @@
 { 
-  "config": {
+  "config": {                         
     "chainId": 6660001,
     "homesteadBlock": 1,
     "eip150Block": 2,
