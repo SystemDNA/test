@@ -7,7 +7,7 @@ services:
     build:
       context: ./bootnode
     ports: 
-      - 30301:30301/udp
+      - 30301:30301/udp 
     networks:
       chainnet:
         ipv4_address: 172.25.0.101 # The miners need to know the IP address later on
