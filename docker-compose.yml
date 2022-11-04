@@ -6,7 +6,7 @@ services:
       - nodekeyhex=08f0e1dee5c1b4645f3331a566009e41a4514b6cd28656d63d0449ecf812812b #Needs to be fix, so that the miners know the resulting enode id
     build:
       context: ./bootnode
-    ports:
+    ports: 
       - 30301:30301/udp
     networks:
       chainnet:
